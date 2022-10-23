@@ -17,10 +17,20 @@ html {
 
 /*----- FIN NAVBAR-----*/
 
-
-
 /* -------- CARD VENTAS-----------*/
-
 .container .card-practica:hover {
     box-shadow: 2px 5px 22px black;
 }
+/* -------- FIN CARD VENTAS-----------*/
+
+/* -------- DESARROLLADOR-----------*/
+.des-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.des-ul li {
+    margin: 10px;
+}
+
+/* -------- FIN DESARROLLADOR-----------*/
