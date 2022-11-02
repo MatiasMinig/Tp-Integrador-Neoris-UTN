@@ -6,3 +6,4 @@
 29/10/2022 Creación y desarrollo de página de buscador de clima. 
 30/10/2022 Creación y desarrollo de página Promociones.
 1//11/2022 Funcionando el formulario de promociones.
+1/11/2022 Finalizado el proyecto.

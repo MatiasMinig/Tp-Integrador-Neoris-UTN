@@ -3,11 +3,11 @@ const resultado = document.querySelector("#resultado");
 const formulario = document.querySelector("#formulario");
 
 window.addEventListener("load", () => {
-  formulario.addEventListener("submit", enviarForm);
+  formulario.addEventListener("submit", handleSubmit);
 });
 
 // Funcion cuando envias el formulario
-function enviarForm(e) {
+function handleSubmit(e) {
   e.preventDefault(); 
 
   // validar campos
@@ -38,10 +38,8 @@ function enviarForm(e) {
     return;
   }
   
-  
 }
 
-console.log(enviarForm());
 
 // Funcion para mostrar si hay un error
 function mostrarError(mensaje) {
@@ -61,6 +59,8 @@ function mostrarError(mensaje) {
     // Se elimina la alerta despues de 5 segundos
     setTimeout(() => {
       alerta.remove();
-    }, 5000);
+    }, 3000);
   }
 }
+
+
