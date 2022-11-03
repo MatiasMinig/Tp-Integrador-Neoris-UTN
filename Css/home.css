@@ -1,9 +1,16 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 
 html {
     scroll-behavior: smooth;
 }
+
+/*-------- LETRA-----*/
+.letra {
+  font-family: 'Poor Story', cursive;
+}
+/*-------- FIN LETRA-----*/
+
 /*----- NAVBAR-----*/
 .nav-img {
     display: flex;
@@ -48,7 +55,6 @@ html {
 
 /* -------- FORM BUSCADOR CLIMA-----------*/
 
-
 #form-clima {
     height: auto;
 }
@@ -63,7 +69,6 @@ html {
     }
   }
 /* -------- FIN FORM BUSCADOR CLIMA-----------*/
-
 
 
 /*--------SPINNER DE CARGAR------*/
